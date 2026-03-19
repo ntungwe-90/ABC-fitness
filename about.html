@@ -18,37 +18,104 @@
       </nav>
     </header>
 
-    <section class="hero">
-      <h1>About Our Studio</h1>
+    <section class="hero2">
+      <h1 style="color: #ff6b6b; font-size: 50px">About Our Studio</h1>
     </section>
 
-    <section class="container">
-      <h2>Studio Description</h2>
+    <section class="container2">
+      <h2 class="about">Studio Description</h2>
 
-      <p>
+      <p class="Description">
         ABC Fitness Studio provides professional fitness equipment and
         customized training programs. Our mission is to help individuals achieve
-        their health goals.
+        their health goals. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Nihil similique, reiciendis maxime illo vel unde, vero itaque
+        porro nisi magnam officia! Autem non consequuntur debitis voluptas qui
+        aperiam rerum error?Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Autem cumque possimus qui, dignissimos blanditiis fugit reiciendis
+        ipsum eum dolorum quasi asperiores necessitatibus! Ex omnis voluptates
+        fugit totam sit laudantium autem!
       </p>
 
-      <h2>Business Hours</h2>
+      <h2 class="about">Business Hours</h2>
+      <table border="1">
+        <tr>
+          <th>Day</th>
+          <th>Opening Hours</th>
+        </tr>
+        <tr>
+          <td>Monday - Friday</td>
+          <td>6am - 9pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>8am - 6pm</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Closed</td>
+        </tr>
+      </table>
 
-      <p>Monday – Friday: 8am – 8pm</p>
-      <p>Saturday – Sunday: 10am – 4pm</p>
+      <!-- <p>Monday – Friday: 8am – 8pm</p>
+      <p>Saturday – Sunday: 10am – 4pm</p> -->
 
-      <h2>Feedback & Custom Order</h2>
+      <h2 class="about">Feedback & Custom Order</h2>
 
       <form>
-        <input id="name" type="text" placeholder="Name" />
+        <input id="name" type="text" placeholder="Name" required />
 
-        <input id="emailContact" type="email" placeholder="Email" />
+        <input id="emailContact" type="email" placeholder="Email" required />
 
-        <textarea id="message" placeholder="Message"></textarea>
+        <textarea id="message" placeholder="Message" required></textarea>
 
         <button type="button" class="btn" onclick="saveContact()">
           Submit
         </button>
       </form>
+    </section>
+
+    <section class="container2">
+      <div class="parentdiv">
+        <div class="firstchild">
+          <h2>Links</h2>
+
+          <a href="https://www.google.com">Google</a>
+          <a href="https://www.wikipedia.org">Wikipedia</a>
+          <a href="https://github.com">GitHub</a>
+        </div>
+
+        <div class="secondchild">
+          <h2>Icons</h2>
+
+          <a href="https://facebook.com" class="icon-link facebook">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M22 12A10 10 0 1 0 10.5 21.8v-6.9H8v-2.9h2.5V9.4c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6v2h2.9l-.5 2.9h-2.4v6.9A10 10 0 0 0 22 12"
+              />
+            </svg>
+            Facebook
+          </a>
+
+          <a href="https://instagram.com" class="icon-link instagram">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm6.5-.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"
+              />
+            </svg>
+            Instagram
+          </a>
+
+          <a href="https://tiktok.com" class="icon-link tiktok">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M16 2c.3 2.1 1.9 3.8 4 4v3c-1.4 0-2.7-.4-3.9-1v6.5a5.5 5.5 0 1 1-5.5-5.5c.3 0 .6 0 .9.1v3a2.5 2.5 0 1 0 1.6 2.4V2h2.9z"
+              />
+            </svg>
+            TikTok
+          </a>
+        </div>
+      </div>
     </section>
 
     <footer>

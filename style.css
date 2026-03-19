@@ -94,14 +94,136 @@ nav a:hover {
 .card img {
   width: 100%;
 }
+.card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px;
+}
+
+.card-info svg {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card-info h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  font-size: 15px;
+  color: #9ca3af;
+}
 
 /* PROMO */
-
-.promo {
-  border: 1px solid #eee;
+.container {
+  margin: 60px auto;
   padding: 30px;
-  margin: 40px 0;
   text-align: center;
+}
+
+.promotion {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.promotion h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.promotion p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.join-button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.join-button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* LINKS AND ICONS */
+.container2 {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.parentdiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstchild,
+.secondchild {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* social icon layout */
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* brand colors */
+
+.facebook {
+  color: #1877f2;
+}
+
+.facebook svg {
+  fill: #1877f2;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+.instagram svg {
+  fill: #e4405f;
+}
+
+.tiktok {
+  color: #000000;
+}
+
+.tiktok svg {
+  fill: #000000;
+}
+
+svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* NEWSLETTER */
@@ -123,6 +245,42 @@ nav a:hover {
   color: white;
   border: none;
   padding: 10px 20px;
+}
+/* ABOUT */
+.hero2 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #f5f5f5;
+  background-image: url("../images/strength.png");
+  background-size: cover;
+}
+
+.about {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.Description {
+  margin-bottom: 40px;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
 }
 
 /* FORM */
