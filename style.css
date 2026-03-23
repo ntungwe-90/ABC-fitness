@@ -293,6 +293,25 @@ textarea {
   border: 1px solid #ddd;
 }
 
+/* TESTIMONIALS */
+.Testimonials {
+  display: flex;
+  align-items: center; /* vertically aligns image & text */
+  gap: 20px; /* space between image and text */
+}
+
+.Testimonials img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Testimonials p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 /* FOOTER */
 
 footer {
